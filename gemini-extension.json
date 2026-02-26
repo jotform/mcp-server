@@ -1,0 +1,11 @@
+{
+  "name": "jotform",
+  "description": "Create forms, manage submissions, and automate workflows with Jotform.",
+  "version": "1.0.0",
+  "contextFileName": "JOTFORM.md",
+  "mcpServers": {
+    "jotform": {
+      "httpUrl": "https://mcp.jotform.com/default"
+    }
+  }
+}
