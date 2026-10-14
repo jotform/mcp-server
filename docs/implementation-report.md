@@ -8,6 +8,8 @@ Date: 2026-10-14 (Europe/Istanbul)
 - Local checkout: `/Users/yusufaslan/Documents/Github/mcp-server`.
 - Fork remote: `https://github.com/yusufaslanjf/mcp-server`.
 - Branch: `feat/claude-jotform-plugin`.
+- Draft pull request: [jotform/mcp-server#2](https://github.com/jotform/mcp-server/pull/2).
+- Implementation commit: `33517eb` (report linkage added in a subsequent commit).
 - Starting commit: `af3edf7`.
 - Plugin identity/display name: `jotform` / **Jotform**.
 - Pilot version: `0.1.0`.
