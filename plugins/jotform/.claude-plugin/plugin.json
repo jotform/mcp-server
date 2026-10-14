@@ -1,0 +1,10 @@
+{
+  "name": "jotform",
+  "displayName": "Jotform",
+  "version": "0.1.0",
+  "description": "Create and manage forms, prepare documents for signature, and build Jotform Apps. Combine the products for client onboarding and event management.",
+  "author": { "name": "Jotform Inc.", "url": "https://www.jotform.com" },
+  "homepage": "https://www.jotform.com",
+  "repository": "https://github.com/jotform/mcp-server",
+  "license": "MIT"
+}

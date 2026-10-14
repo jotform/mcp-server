@@ -1,0 +1,40 @@
+name: Validate Claude plugin
+
+on:
+  pull_request:
+    paths:
+      - '.claude-plugin/**'
+      - 'plugins/jotform/**'
+      - 'scripts/package-claude-plugin.py'
+      - '.github/workflows/claude-plugin.yml'
+      - 'LICENSE'
+  push:
+    branches: [master]
+    paths:
+      - '.claude-plugin/**'
+      - 'plugins/jotform/**'
+      - 'scripts/package-claude-plugin.py'
+      - '.github/workflows/claude-plugin.yml'
+      - 'LICENSE'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install the validator
+        run: npm install --global @anthropic-ai/claude-code@2.1.220 --ignore-scripts
+      - name: Validate source and exported package
+        run: python3 scripts/package-claude-plugin.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jotform-claude-pilot
+          path: dist/jotform-claude-*.zip
+          if-no-files-found: error

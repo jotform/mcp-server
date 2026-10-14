@@ -1,0 +1,12 @@
+{
+  "name": "jotform-plugins",
+  "description": "Jotform plugins for forms, signing documents, and apps.",
+  "owner": { "name": "Jotform Inc." },
+  "plugins": [
+    {
+      "name": "jotform",
+      "source": "./plugins/jotform",
+      "description": "Create forms, prepare signing documents, and build apps with Jotform."
+    }
+  ]
+}

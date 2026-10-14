@@ -4,6 +4,23 @@ A Model Context Protocol (MCP) server for Jotform. This integration exposes Jotf
 
 The service is actively optimized based on real-world usage and more tools are coming soon.
 
+## Jotform plugin for Claude (pilot)
+
+The [Claude plugin](plugins/jotform/README.md) bundles the existing Jotform,
+Jotform Sign, and Jotform Apps connections with four skills and two workflow
+recipes: client onboarding and event management. Its name is **Jotform**.
+The `0.1.0` package is for pilot testing; it is not yet a public directory release.
+
+See [Claude setup](docs/claude-setup.md) to build/upload the ZIP or load it in
+Claude Code, [compatibility](docs/compatibility.md) for change boundaries, and
+[release preparation](docs/claude-release.md) for the public release gates.
+Plugin installation is separate from connecting each product through OAuth.
+
+The existing Gemini extension remains at the repository root and uses
+`https://mcp.jotform.com/default` as declared in `gemini-extension.json`.
+The Claude package references the existing product endpoints without changing
+that configuration or deploying any server code.
+
 ## Remote Server URL
 
 ```
@@ -64,11 +81,13 @@ A few example prompts to try:
 
 ### 🔐 1) Authentication Setup (OAuth 2.0)
 
-Jotform MCP requires OAuth for every user on first connect. Bearer-token access is not supported.
+Jotform MCP requires OAuth authorization on first connect. Clients use the
+OAuth-issued access token as a Bearer token; this is separate from signing in
+with a Jotform API key or an arbitrary manually supplied token.
 
 1. Add the server URL in your MCP client
 2. You'll be shown a Jotform OAuth consent screen to authorize access to your Jotform data
-3. Only workspace admins can install the Jotform MCP app
+3. Follow your host's workspace connector policy; organization owners/admins may need to make a connector available before members connect their own accounts.
 
 #### View Authorized MCP Clients
 
@@ -179,12 +198,12 @@ Rate limits (same per-user as the Jotform REST API):
 
 If limits are exceeded, the server returns HTTP 429 with a Retry-After header.
 
-**Important:** Ensure you complete the OAuth flow; bearer tokens are not accepted.
+**Important:** Complete the OAuth flow in your client; use its OAuth-issued access token rather than substituting an API key.
 
 ## Security
 
 - OAuth 2.0 required for all connections
-- Bearer-token access is not supported
+- Clients send OAuth-issued access tokens using Bearer authorization
 - Manage and revoke client access via: Account → Connected Apps → Jotform MCP → Clients
 
 ## Contributing
