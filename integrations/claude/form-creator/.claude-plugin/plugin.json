@@ -8,6 +8,7 @@
     "url": "https://www.jotform.com"
   },
   "homepage": "https://www.jotform.com",
+  "privacyPolicyUrl": "https://www.jotform.com/privacy/",
   "repository": "https://github.com/jotform/mcp-server",
   "license": "MIT"
 }
