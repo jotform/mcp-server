@@ -1,0 +1,13 @@
+{
+  "name": "jotform",
+  "displayName": "Jotform",
+  "version": "0.2.0",
+  "description": "Build surveys, registration and RSVP forms, and feedback forms. Preview forms and analyze responses.",
+  "author": {
+    "name": "Jotform Inc.",
+    "url": "https://www.jotform.com"
+  },
+  "homepage": "https://www.jotform.com",
+  "repository": "https://github.com/jotform/mcp-server",
+  "license": "MIT"
+}
