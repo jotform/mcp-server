@@ -12,7 +12,7 @@ This guide is for people who change this repository. Users do not need it.
 | `docs/app-directory.md` | Guide: connect from the ChatGPT or claude.ai directory. |
 | `docs/server-address.md` | Guide: add the server address in Codex, Cursor, VS Code, or any MCP tool. |
 | `docs/mcp/` | Server addresses, tools, and sign-in. |
-| `integrations/claude/form-builder/` | Form Builder plugin. Forms connection and the `jotform-forms` skill. |
+| `integrations/claude/form-creator/` | Form Creator plugin. Forms connection and the `jotform-forms` skill. |
 | `integrations/claude/jotform-sign/` | Jotform Sign plugin. Sign connection and the `jotform-sign` skill. |
 | `integrations/claude/jotform-apps/` | Jotform Apps plugin. Apps connection and the `jotform-apps` skill. |
 | `.claude-plugin/marketplace.json` | Claude marketplace catalog. It lists the three plugins. |
@@ -47,7 +47,7 @@ There is no OpenAI package. ChatGPT and Codex only need a guide.
 
    ```sh
    claude plugin validate .
-   claude plugin validate ./integrations/claude/form-builder
+   claude plugin validate ./integrations/claude/form-creator
    claude plugin validate ./integrations/claude/jotform-sign
    claude plugin validate ./integrations/claude/jotform-apps
    ```
