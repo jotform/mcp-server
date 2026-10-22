@@ -1,4 +1,4 @@
-# Form Builder for Claude
+# Form Creator for Claude
 
 Use Jotform forms in Claude. Create forms, preview them, and read the responses.
 
@@ -8,7 +8,7 @@ Want documents for signature or apps? Install [Jotform Sign](https://github.com/
 
 ```sh
 claude plugin marketplace add jotform/mcp-server
-claude plugin install form-builder@jotform-plugins
+claude plugin install form-creator@jotform-plugins
 ```
 
 For claude.ai and Cowork, follow the [Claude plugins guide](https://github.com/jotform/mcp-server/blob/master/docs/claude-plugins.md).

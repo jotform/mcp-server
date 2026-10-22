@@ -9,7 +9,7 @@ This repository documents Jotform's hosted MCP servers and packages them for AI 
 | Change the start page | `README.md` |
 | Update setup steps | `docs/claude-plugins.md`, `docs/gemini-extension.md`, `docs/app-directory.md`, `docs/server-address.md` (one guide per connection method) |
 | Explain servers, tools, or sign-in | `docs/mcp/endpoints.md`, `docs/mcp/tools.md`, `docs/mcp/authentication.md` |
-| Change a Claude plugin | `integrations/claude/<plugin>/` (`form-builder`, `jotform-sign`, `jotform-apps`) |
+| Change a Claude plugin | `integrations/claude/<plugin>/` (`form-creator`, `jotform-sign`, `jotform-apps`) |
 | Change the Claude catalog | `.claude-plugin/marketplace.json` |
 | Change the Gemini extension | `gemini-extension.json` and `JOTFORM.md` |
 | Develop or release | `docs/development.md` |
