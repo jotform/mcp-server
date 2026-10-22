@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Jotform AI integrations</title>
+  <desc id="description">Bring Jotform into the conversation. AI tools connect through Jotform MCP to Forms, Sign, and Apps.</desc>
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#DAE0ED"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1198" height="358" rx="24" fill="#F7F8FC" stroke="#E1E5EF"/>
+  <rect x="674" y="24" width="498" height="312" rx="18" fill="url(#dots)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="48" y="44" width="6" height="18" rx="3" fill="#FF6100"/>
+    <text x="66" y="58" font-size="13" font-weight="700" letter-spacing="2" fill="#47536B">JOTFORM · AI INTEGRATIONS</text>
+    <text x="48" y="131" font-size="48" font-weight="700" letter-spacing="-1.5" fill="#0A1551">Bring Jotform</text>
+    <text x="48" y="187" font-size="48" font-weight="700" letter-spacing="-1.5" fill="#0A1551">into the conversation.</text>
+    <text x="48" y="235" font-size="19" fill="#47536B">Explore the service. Choose your tool. Start building.</text>
+    <rect x="48" y="280" width="112" height="32" rx="16" fill="#FFF0E5"/>
+    <text x="104" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#994000">HOSTED MCP</text>
+    <text x="177" y="301" font-size="14" fill="#47536B">Your account. Your AI assistant.</text>
+    <path d="M924 113V146M924 214V237M778 237H1070M778 237V259M924 237V259M1070 237V259" fill="none" stroke="#9BAAC6" stroke-width="2"/>
+    <rect x="762" y="49" width="324" height="64" rx="14" fill="#FFFFFF" stroke="#D8DFEC"/>
+    <text x="924" y="77" text-anchor="middle" font-size="16" font-weight="700" fill="#0A1551">Your AI tools</text>
+    <text x="924" y="97" text-anchor="middle" font-size="12" fill="#59677E">Claude · ChatGPT · Codex · Gemini CLI</text>
+    <rect x="762" y="146" width="324" height="68" rx="14" fill="#0A1551"/>
+    <circle cx="790" cy="180" r="5" fill="#FF8B3D"/>
+    <text x="924" y="177" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">Jotform MCP</text>
+    <text x="924" y="197" text-anchor="middle" font-size="12" fill="#CBD5F5">Connected to your Jotform account</text>
+    <rect x="714" y="259" width="128" height="52" rx="12" fill="#FFFFFF" stroke="#D8DFEC"/>
+    <rect x="860" y="259" width="128" height="52" rx="12" fill="#FFFFFF" stroke="#D8DFEC"/>
+    <rect x="1006" y="259" width="128" height="52" rx="12" fill="#FFFFFF" stroke="#D8DFEC"/>
+    <text x="778" y="291" text-anchor="middle" font-size="17" font-weight="700" fill="#0A1551">Forms</text>
+    <text x="924" y="291" text-anchor="middle" font-size="17" font-weight="700" fill="#0A1551">Sign</text>
+    <text x="1070" y="291" text-anchor="middle" font-size="17" font-weight="700" fill="#0A1551">Apps</text>
+  </g>
+</svg>

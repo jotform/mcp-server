@@ -1,0 +1,13 @@
+{
+  "name": "jotform-sign",
+  "displayName": "Jotform Sign",
+  "version": "0.1.0",
+  "description": "Prepare contracts, agreements, NDAs, and consent documents. Set signers, send for signature, and check who has signed.",
+  "author": {
+    "name": "Jotform Inc.",
+    "url": "https://www.jotform.com"
+  },
+  "homepage": "https://www.jotform.com/products/sign/",
+  "repository": "https://github.com/jotform/mcp-server",
+  "license": "MIT"
+}

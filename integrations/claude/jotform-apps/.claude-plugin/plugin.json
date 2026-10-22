@@ -1,0 +1,13 @@
+{
+  "name": "jotform-apps",
+  "displayName": "Jotform Apps",
+  "version": "0.1.0",
+  "description": "Build client portals and event apps. Add your existing forms to an app.",
+  "author": {
+    "name": "Jotform Inc.",
+    "url": "https://www.jotform.com"
+  },
+  "homepage": "https://www.jotform.com/products/apps/",
+  "repository": "https://github.com/jotform/mcp-server",
+  "license": "MIT"
+}

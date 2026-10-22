@@ -1,0 +1,22 @@
+{
+  "name": "jotform-plugins",
+  "description": "Jotform plugins for forms, signing documents, and apps.",
+  "owner": { "name": "Jotform Inc." },
+  "plugins": [
+    {
+      "name": "jotform",
+      "source": "./integrations/claude/jotform",
+      "description": "Build surveys, registration and RSVP forms, and feedback forms. Preview forms and analyze responses."
+    },
+    {
+      "name": "jotform-sign",
+      "source": "./integrations/claude/jotform-sign",
+      "description": "Prepare contracts, agreements, NDAs, and consent documents. Set signers, send for signature, and check who has signed."
+    },
+    {
+      "name": "jotform-apps",
+      "source": "./integrations/claude/jotform-apps",
+      "description": "Build client portals and event apps. Add your existing forms to an app."
+    }
+  ]
+}
