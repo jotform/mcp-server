@@ -5,7 +5,7 @@ Jotform has one main MCP server and three product servers. Most people only need
 | Server | Address | Use it for | Used by |
 | --- | --- | --- | --- |
 | Main server | `https://mcp.jotform.com` | Forms and responses, as text | [Server address guide](../server-address.md), [Gemini extension](../../gemini-extension.json) |
-| Forms app | `https://mcp.jotform.com/mcp-app` | Forms and responses, with previews and tables | [Jotform plugin](../../integrations/claude/jotform/.mcp.json) |
+| Forms app | `https://mcp.jotform.com/mcp-app` | Forms and responses, with previews and tables | [Form Builder plugin](../../integrations/claude/form-builder/.mcp.json) |
 | Sign app | `https://mcp.jotform.com/mcp-sign-v1` | Documents for signature | [Jotform Sign plugin](../../integrations/claude/jotform-sign/.mcp.json) |
 | Apps app | `https://mcp.jotform.com/mcp-jotform-apps-v1` | Client portals and event apps | [Jotform Apps plugin](../../integrations/claude/jotform-apps/.mcp.json) |
 

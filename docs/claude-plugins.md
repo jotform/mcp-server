@@ -4,11 +4,11 @@ The Jotform plugins work in Claude Code, claude.ai, and Cowork. There is one plu
 
 | Plugin | Use it for | Install ID | Skill |
 | --- | --- | --- | --- |
-| Jotform | Forms and responses | `jotform@jotform-plugins` | `/jotform:jotform-forms` |
+| Form Builder | Forms and responses | `form-builder@jotform-plugins` | `/form-builder:jotform-forms` |
 | Jotform Sign | Documents for signature | `jotform-sign@jotform-plugins` | `/jotform-sign:jotform-sign` |
 | Jotform Apps | Client portals and event apps | `jotform-apps@jotform-plugins` | `/jotform-apps:jotform-apps` |
 
-To put a new form in an app, install Jotform and Jotform Apps.
+To put a new form in an app, install Form Builder and Jotform Apps.
 
 Only want forms on claude.ai, without a plugin? Use the [app directory](app-directory.md).
 
@@ -23,7 +23,7 @@ Only want forms on claude.ai, without a plugin? Use the [app directory](app-dire
 2. Install the plugins you want:
 
    ```sh
-   claude plugin install jotform@jotform-plugins
+   claude plugin install form-builder@jotform-plugins
    claude plugin install jotform-sign@jotform-plugins
    claude plugin install jotform-apps@jotform-plugins
    ```
@@ -35,7 +35,7 @@ Only want forms on claude.ai, without a plugin? Use the [app directory](app-dire
 
 1. Open **Customize > Plugins > Add > Add marketplace**.
 2. Enter `https://github.com/jotform/mcp-server`.
-3. Install **Jotform**, **Jotform Sign**, or **Jotform Apps**.
+3. Install **Form Builder**, **Jotform Sign**, or **Jotform Apps**.
 4. Open each plugin's **Connectors** tab and connect it.
 5. Sign in to Jotform.
 
@@ -49,7 +49,7 @@ Ask Claude:
 
 > Find my forms.
 
-Claude should list your forms. In Claude Code, you can also run a skill directly, such as `/jotform:jotform-forms`.
+Claude should list your forms. In Claude Code, you can also run a skill directly, such as `/form-builder:jotform-forms`.
 
 ## Problems
 

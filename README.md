@@ -23,7 +23,7 @@ There is one plugin for each product. Install only the ones you need.
 
 | Plugin | What it does | Install ID |
 | --- | --- | --- |
-| [Jotform](integrations/claude/jotform/README.md) | Forms and responses | `jotform@jotform-plugins` |
+| [Form Builder](integrations/claude/form-builder/README.md) | Forms and responses | `form-builder@jotform-plugins` |
 | [Jotform Sign](integrations/claude/jotform-sign/README.md) | Documents for signature | `jotform-sign@jotform-plugins` |
 | [Jotform Apps](integrations/claude/jotform-apps/README.md) | Client portals and event apps | `jotform-apps@jotform-plugins` |
 
@@ -33,7 +33,7 @@ There is one plugin for each product. Install only the ones you need.
 
 ```sh
 claude plugin marketplace add jotform/mcp-server
-claude plugin install jotform@jotform-plugins
+claude plugin install form-builder@jotform-plugins
 claude plugin install jotform-sign@jotform-plugins
 claude plugin install jotform-apps@jotform-plugins
 ```

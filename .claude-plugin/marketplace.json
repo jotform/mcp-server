@@ -4,8 +4,8 @@
   "owner": { "name": "Jotform Inc." },
   "plugins": [
     {
-      "name": "jotform",
-      "source": "./integrations/claude/jotform",
+      "name": "form-builder",
+      "source": "./integrations/claude/form-builder",
       "description": "Build surveys, registration and RSVP forms, and feedback forms. Preview forms and analyze responses."
     },
     {
