@@ -1,7 +1,7 @@
 {
-  "name": "jotform",
-  "displayName": "Jotform",
-  "version": "0.2.0",
+  "name": "form-builder",
+  "displayName": "Form Builder",
+  "version": "0.2.1",
   "description": "Build surveys, registration and RSVP forms, and feedback forms. Preview forms and analyze responses.",
   "author": {
     "name": "Jotform Inc.",

@@ -11,7 +11,7 @@ claude plugin install jotform-apps@jotform-plugins
 
 For claude.ai and Cowork, follow the [Claude plugins guide](https://github.com/jotform/mcp-server/blob/master/docs/claude-plugins.md).
 
-To create new forms for your app, also install the [Jotform plugin](https://github.com/jotform/mcp-server/blob/master/integrations/claude/jotform/README.md).
+To create new forms for your app, also install the [Form Builder plugin](https://github.com/jotform/mcp-server/blob/master/integrations/claude/form-builder/README.md).
 
 ## Things to try
 
