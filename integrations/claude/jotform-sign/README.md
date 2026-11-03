@@ -22,7 +22,6 @@ For claude.ai and Cowork, follow the [Claude plugins guide](https://github.com/j
 | Part | What it does |
 | --- | --- |
 | `jotform-sign` connection | Connects to `https://mcp.jotform.com/mcp-sign-v1`. |
-| [`jotform-sign`](skills/jotform-sign/SKILL.md) skill | Prepares documents for signature. Tracks signatures. |
 
 ## Your data
 

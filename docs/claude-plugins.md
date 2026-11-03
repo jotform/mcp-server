@@ -5,8 +5,8 @@ The Jotform plugins work in Claude Code, claude.ai, and Cowork. There is one plu
 | Plugin | Use it for | Install ID | Skill |
 | --- | --- | --- | --- |
 | Form Creator | Forms and responses | `form-creator@jotform-plugins` | `/form-creator:jotform-forms` |
-| Jotform Sign | Documents for signature | `jotform-sign@jotform-plugins` | `/jotform-sign:jotform-sign` |
-| Jotform Apps | Client portals and event apps | `jotform-apps@jotform-plugins` | `/jotform-apps:jotform-apps` |
+| Jotform Sign | Documents for signature | `jotform-sign@jotform-plugins` | None yet |
+| Jotform Apps | Client portals and event apps | `jotform-apps@jotform-plugins` | None yet |
 
 To put a new form in an app, install Form Creator and Jotform Apps.
 
