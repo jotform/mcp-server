@@ -4,7 +4,7 @@ The Jotform plugins work in Claude Code, claude.ai, and Cowork. There is one plu
 
 | Plugin | Use it for | Install ID | Skill |
 | --- | --- | --- | --- |
-| Form Creator | Forms and responses | `form-creator@jotform-plugins` | `/form-creator:jotform-forms` |
+| Form Creator | Forms and responses | `form-creator@jotform-plugins` | `/form-creator:form-creator` |
 | Jotform Sign | Documents for signature | `jotform-sign@jotform-plugins` | None yet |
 | Jotform Apps | Client portals and event apps | `jotform-apps@jotform-plugins` | None yet |
 
@@ -49,7 +49,7 @@ Ask Claude:
 
 > Find my forms.
 
-Claude should list your forms. In Claude Code, you can also run a skill directly, such as `/form-creator:jotform-forms`.
+Claude should list your forms. In Claude Code, you can also run a skill directly, such as `/form-creator:form-creator`.
 
 ## Problems
 

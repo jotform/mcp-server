@@ -24,7 +24,7 @@ For claude.ai and Cowork, follow the [Claude plugins guide](https://github.com/j
 | Part | What it does |
 | --- | --- |
 | `jotform` connection | Connects to `https://mcp.jotform.com/mcp-app`. |
-| [`jotform-forms`](skills/jotform-forms/SKILL.md) skill | Creates and edits forms. Reads responses. |
+| [`form-creator`](skills/form-creator/SKILL.md) skill | Creates and edits forms. Reads responses. |
 
 ## Your data
 

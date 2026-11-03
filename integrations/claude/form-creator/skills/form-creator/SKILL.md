@@ -1,9 +1,9 @@
 ---
-name: jotform-forms
+name: form-creator
 description: Create, find, display, or edit a survey, registration form, RSVP, or feedback form, and list or analyze what people answered, including this week's responses. Use when the user wants a new form, a change to an existing one, or a summary of submissions. Contracts belong to the Jotform Sign plugin. Client portals belong to the Jotform Apps plugin.
 ---
 
-# Jotform forms
+# Form Creator
 
 Use tools from the `jotform` connector. When another connector exposes the same short tool name, choose the tool that belongs to `jotform`.
 
