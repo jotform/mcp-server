@@ -13,8 +13,8 @@ This guide is for people who change this repository. Users do not need it.
 | `docs/server-address.md` | Guide: add the server address in Codex, Cursor, VS Code, or any MCP tool. |
 | `docs/mcp/` | Server addresses, tools, and sign-in. |
 | `integrations/claude/form-creator/` | Form Creator plugin. Forms connection and the `jotform-forms` skill. |
-| `integrations/claude/jotform-sign/` | Jotform Sign plugin. Sign connection and the `jotform-sign` skill. |
-| `integrations/claude/jotform-apps/` | Jotform Apps plugin. Apps connection and the `jotform-apps` skill. |
+| `integrations/claude/jotform-sign/` | Jotform Sign plugin. Sign connection. |
+| `integrations/claude/jotform-apps/` | Jotform Apps plugin. Apps connection. |
 | `.claude-plugin/marketplace.json` | Claude marketplace catalog. It lists the three plugins. |
 | `gemini-extension.json` | Gemini extension manifest. It must stay at the root. |
 | `JOTFORM.md` | Instructions the Gemini extension loads. It must stay at the root. |
