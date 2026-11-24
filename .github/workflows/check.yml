@@ -1,0 +1,16 @@
+name: Check
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check plugins
+        run: scripts/check.sh ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || '' }}

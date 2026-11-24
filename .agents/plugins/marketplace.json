@@ -1,0 +1,44 @@
+{
+  "name": "jotform-plugins",
+  "interface": {
+    "displayName": "Jotform"
+  },
+  "plugins": [
+    {
+      "name": "jotform",
+      "source": {
+        "source": "local",
+        "path": "./integrations/chatgpt/jotform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "jotform-sign",
+      "source": {
+        "source": "local",
+        "path": "./integrations/chatgpt/jotform-sign"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "jotform-apps",
+      "source": {
+        "source": "local",
+        "path": "./integrations/chatgpt/jotform-apps"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

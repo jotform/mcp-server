@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jotform-sign",
+  "version": "0.1.0",
+  "description": "Prepare contracts, agreements, NDAs, and consent documents. Set signers, send for signature, and check who has signed.",
+  "author": {
+    "name": "Jotform Inc.",
+    "url": "https://www.jotform.com"
+  },
+  "homepage": "https://www.jotform.com/products/sign/",
+  "repository": "https://github.com/jotform/mcp-server",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Jotform Sign",
+        "shortDescription": "Prepare and send for signature",
+        "longDescription": "Prepare contracts, agreements, NDAs, and consent documents. Set signers, send for signature, and check who has signed.",
+        "developerName": "Jotform Inc.",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://www.jotform.com/products/sign/",
+        "privacyPolicyURL": "https://www.jotform.com/privacy/",
+        "termsOfServiceURL": "https://www.jotform.com/terms/",
+        "supportURL": "https://www.jotform.com/answers/",
+        "defaultPrompt": [
+          "Prepare an NDA for a new contractor",
+          "Send my rental agreement for signature",
+          "Check who has signed my contract"
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

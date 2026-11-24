@@ -11,6 +11,8 @@ This repository documents Jotform's hosted MCP servers and packages them for AI 
 | Explain servers, tools, or sign-in | `docs/mcp/endpoints.md`, `docs/mcp/tools.md`, `docs/mcp/authentication.md` |
 | Change a Claude plugin | `integrations/claude/<plugin>/` (`form-creator`, `jotform-sign`, `jotform-apps`) |
 | Change the Claude catalog | `.claude-plugin/marketplace.json` |
+| Change a ChatGPT plugin | `integrations/chatgpt/<plugin>/` (`jotform`, `jotform-sign`, `jotform-apps`) |
+| Change the ChatGPT and Codex catalog | `.agents/plugins/marketplace.json` |
 | Change the Gemini extension | `gemini-extension.json` and `JOTFORM.md` |
 | Develop or release | `docs/development.md` |
 
@@ -21,11 +23,12 @@ This repository documents Jotform's hosted MCP servers and packages them for AI 
 - Public docs say what a user can do and how. Agent behavior belongs in skills and `JOTFORM.md`.
 - Describe only published services. Check [Jotform MCP](https://www.jotform.com/mcp/), the [developer reference](https://www.jotform.com/developers/mcp/), and the live server's tool list. Flag conflicting claims instead of guessing.
 - Plugin manifests are the source for endpoints. Keep `docs/mcp/endpoints.md` aligned with them. The Gemini `/default` route is the same main server as `https://mcp.jotform.com`.
-- One Claude plugin per product. Each plugin has one connection and its own skills. Each plugin folder works on its own; link to other plugins with a full GitHub URL.
+- One plugin per product for each host. Each plugin has one connection and its own skills. Each plugin folder works on its own; link to other plugins with a full GitHub URL.
+- Plugin manifests, connections, catalog entries, skills and `JOTFORM.md` are exported from Jotform's internal source. Do not edit them here.
 - Keep the MCP connection in `.mcp.json` at the plugin root and each skill in `skills/<skill>/SKILL.md`. Claude Code did not detect connections declared inline in `plugin.json`.
 - Keep `gemini-extension.json` and `JOTFORM.md` at the root. Keep plugin names and server addresses unless the task changes them.
-- There is no OpenAI package. Describe only routes that exist.
+- ChatGPT plugins live in `integrations/chatgpt/` and use the Agent Plugins format (`plugin.json`, `mcp.json`). They are not published yet, so user guides do not describe them.
 
 ## Verify changes
 
-Run `git diff --check`. For Claude changes, run `claude plugin validate .` and `claude plugin validate ./integrations/claude/<plugin>`. Check all local links still resolve. See `docs/development.md` for live checks.
+Run `git diff --check`. For Claude changes, run `claude plugin validate .` and `claude plugin validate ./integrations/claude/<plugin>`. For ChatGPT changes, build the ZIP with `scripts/package-chatgpt.sh <plugin>`; the OpenAI portal validates it on upload. Check all local links still resolve. See `docs/development.md` for live checks.

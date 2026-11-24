@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jotform",
+  "version": "0.1.0",
+  "description": "Build surveys, registration and RSVP forms, and feedback forms. Preview forms and analyze responses.",
+  "author": {
+    "name": "Jotform Inc.",
+    "url": "https://www.jotform.com"
+  },
+  "homepage": "https://www.jotform.com",
+  "repository": "https://github.com/jotform/mcp-server",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Jotform",
+        "shortDescription": "Build forms and read answers",
+        "longDescription": "Build surveys, registration and RSVP forms, and feedback forms. Preview forms and analyze responses.",
+        "developerName": "Jotform Inc.",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://www.jotform.com",
+        "privacyPolicyURL": "https://www.jotform.com/privacy/",
+        "termsOfServiceURL": "https://www.jotform.com/terms/",
+        "supportURL": "https://www.jotform.com/answers/",
+        "defaultPrompt": [
+          "Create a registration form for my workshop",
+          "Summarize this week's responses to my feedback form",
+          "Add an email question to my RSVP form"
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

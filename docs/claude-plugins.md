@@ -49,7 +49,7 @@ Ask Claude:
 
 > Find my forms.
 
-Claude should list your forms. In Claude Code, you can also run a skill directly, such as `/form-creator:form-creator`.
+Claude should list your forms. In Claude Code, you can also run a skill directly, such as `/form-creator:create-form`.
 
 ## Problems
 

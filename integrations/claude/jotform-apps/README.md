@@ -24,6 +24,7 @@ To create new forms for your app, also install the [Form Creator plugin](https:/
 | Part | What it does |
 | --- | --- |
 | `jotform-apps` connection | Connects to `https://mcp.jotform.com/mcp-jotform-apps-v1`. |
+| [Skills](skills/) | One per job: `create-app`, `edit-app`, `display-app`, `list-apps`. |
 
 ## Your data
 

@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "jotform-sign": {
+    "jotform": {
       "type": "http",
-      "url": "https://mcp.jotform.com/mcp-sign-v1"
+      "url": "https://mcp.jotform.com/mcp-app"
     }
   }
 }

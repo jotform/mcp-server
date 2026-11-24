@@ -1,14 +1,18 @@
 {
   "name": "form-creator",
   "displayName": "Form Creator",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Build surveys, registration and RSVP forms, and feedback forms. Preview forms and analyze responses.",
   "author": {
     "name": "Jotform Inc.",
     "url": "https://www.jotform.com"
   },
   "homepage": "https://www.jotform.com",
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://www.jotform.com/developers/mcp/",
+  "supportUrl": "https://www.jotform.com/answers/",
   "privacyPolicyUrl": "https://www.jotform.com/privacy/",
+  "termsOfServiceUrl": "https://www.jotform.com/terms/",
   "repository": "https://github.com/jotform/mcp-server",
   "license": "MIT"
 }

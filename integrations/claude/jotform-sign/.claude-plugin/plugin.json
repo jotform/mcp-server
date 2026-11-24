@@ -1,13 +1,18 @@
 {
   "name": "jotform-sign",
   "displayName": "Jotform Sign",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Prepare contracts, agreements, NDAs, and consent documents. Set signers, send for signature, and check who has signed.",
   "author": {
     "name": "Jotform Inc.",
     "url": "https://www.jotform.com"
   },
   "homepage": "https://www.jotform.com/products/sign/",
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://www.jotform.com/developers/mcp/",
+  "supportUrl": "https://www.jotform.com/answers/",
+  "privacyPolicyUrl": "https://www.jotform.com/privacy/",
+  "termsOfServiceUrl": "https://www.jotform.com/terms/",
   "repository": "https://github.com/jotform/mcp-server",
   "license": "MIT"
 }

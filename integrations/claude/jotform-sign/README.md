@@ -22,6 +22,7 @@ For claude.ai and Cowork, follow the [Claude plugins guide](https://github.com/j
 | Part | What it does |
 | --- | --- |
 | `jotform-sign` connection | Connects to `https://mcp.jotform.com/mcp-sign-v1`. |
+| [Skills](skills/) | One per job: `create-sign-document`, `edit-sign-document`, `display-sign-document`, `send-to-sign`, `check-signing-status`, `list-sign-documents`, `list-sign-submissions`, `sign-yourself`. |
 
 ## Your data
 

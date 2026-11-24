@@ -9,8 +9,9 @@ Thank you for helping.
 | The start page | [README.md](README.md) |
 | Setup steps | The guide for that connection method in [docs/](docs/development.md#layout) |
 | Server addresses, tools, or sign-in | [docs/mcp/](docs/mcp/endpoints.md) |
-| A Claude plugin or skill | Its folder under `integrations/claude/`. Read the [development guide](docs/development.md) first. |
-| The Gemini extension | [gemini-extension.json](gemini-extension.json) and [JOTFORM.md](JOTFORM.md) |
+| A plugin's icon or `README.md` | Its folder under `integrations/claude/` or `integrations/chatgpt/`. Read the [development guide](docs/development.md) first. |
+| A plugin manifest, connection, skill or [JOTFORM.md](JOTFORM.md) | Jotform exports these from its internal source. Open an issue or a pull request, and a maintainer applies the change to the source. |
+| The Gemini extension | [gemini-extension.json](gemini-extension.json) |
 
 ## Rules
 

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jotform-apps",
+  "version": "0.1.0",
+  "description": "Build client portals and event apps. Add your existing forms to an app.",
+  "author": {
+    "name": "Jotform Inc.",
+    "url": "https://www.jotform.com"
+  },
+  "homepage": "https://www.jotform.com/products/apps/",
+  "repository": "https://github.com/jotform/mcp-server",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Jotform Apps",
+        "shortDescription": "Build portals and event apps",
+        "longDescription": "Build client portals and event apps. Add your existing forms to an app.",
+        "developerName": "Jotform Inc.",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://www.jotform.com/products/apps/",
+        "privacyPolicyURL": "https://www.jotform.com/privacy/",
+        "termsOfServiceURL": "https://www.jotform.com/terms/",
+        "supportURL": "https://www.jotform.com/answers/",
+        "defaultPrompt": [
+          "Build a client portal for my agency",
+          "Create an event app that uses my RSVP form"
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
